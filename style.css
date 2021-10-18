@@ -2,13 +2,13 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 19px;
+   font-family: 'Festive', cursive;
+    font-size: 22px;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:calc(100vh - 30px);
     background: linear-gradient(to right,rgb(0, 110, 255),rgb(52, 248, 232));
 }
 .clock{
@@ -131,3 +131,18 @@ body{
    --rotation:360deg;
 }
 
+/* ----------  end of arrow clock  ------------ */
+/* ----------  start of analog clock  ------------ */
+
+.analogClock{
+   margin-top: 50px;
+   border: 4px solid white;
+   border-radius: 18px;
+   min-width: 40%;
+   text-align: center;
+}
+.analogClock div{
+   display: inline-block;
+   font-size: 23px;
+   font-weight: bolder;
+}
